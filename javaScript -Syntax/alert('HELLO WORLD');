@@ -1,4 +1,4 @@
-alert('HELLO WORLD');
+alert('HELLO');
 undefined
 confirm('do not posh cannsel');
 false
