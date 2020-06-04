@@ -2,7 +2,6 @@ alert('HELLO WORLD');
 undefined
 confirm('do not posh cannsel');
 false
-confirm('do not posh cannsel');
 true
 prompt('what are you doing with javaScript');
 "good"
