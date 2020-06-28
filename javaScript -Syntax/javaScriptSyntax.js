@@ -18,4 +18,3 @@ const isCool = true;
 const x = null;
 const y = undefined;
   alert('Hello world!');
-  
