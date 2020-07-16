@@ -1,0 +1,18 @@
+td{
+    width: 100px;
+    height: 100px;
+}
+.vertical{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+.ahmad{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;  
+}
+table{
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
