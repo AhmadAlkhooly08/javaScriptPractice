@@ -1,0 +1,10 @@
+.code > div{
+    background-color: #eee;
+    padding: 20px;
+}
+.code{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
