@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-1{
+    border: 6px solid gray;
+    width: 80%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-content: center;
+}
+
+.container-1 div{
+    width: 200px;
+    height: 300px;
+    border: 1px dotted red;
+    margin: 1%;
+    padding: 10px;
+    /* flex-direction: row; */
+}
+
+/* .box-1{
+    flex: 12;
+}
+ .box-2{
+    flex: 1;
+ 
+}
+.box-3{
+    flex: 1;
+   
+}
+.box-4{
+    flex: 1;
+  
+}
+.box-5{
+    flex: 1;
+   
+}
+.box-6{
+    flex: 1;
+  
+}  */
