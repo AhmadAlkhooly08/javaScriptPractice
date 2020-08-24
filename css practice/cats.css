@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to top left, rgb(49,125,190), rgb(79,176,182)); 
+}
+.pink{
+    text-align: center;
+}
+h1{
+    margin-bottom: 30px;
+    color: white;
+}
+/* .container{
+    display:grid;
+    grid-template-columns: repeat(3,200fr);
+} */
+html{
+    height: 90%;
+}
+@media only screen and (max-width:320px) {
+    .pink{
+        margin-bottom:800px;
+    }
+}
