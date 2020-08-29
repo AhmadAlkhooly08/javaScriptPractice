@@ -1,7 +1,6 @@
 body{
     text-align: center;
-    background-image: linear-gradient(to top left, rgb(49,125,190), rgb(79,176,182)); 
-}
+s}
 .pink{
     text-align: center;
 }
@@ -16,8 +15,12 @@ h1{
 html{
     height: 90%;
 }
-@media only screen and (max-width:320px) {
+@media (max-width:320px) {
+    .code{
+        margin-bottom:80px;
+    }
     .pink{
-        margin-bottom:800px;
+        margin-left: 180px;
+        font-size: 22px;
     }
 }

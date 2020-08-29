@@ -81,6 +81,7 @@ h1:hover{
 }
 table:hover{
   color: yellow;
+  transition: background 2s;
 }
 p{
   font-family: Arial;
@@ -132,7 +133,7 @@ button > a:hover{
 button:hover{
   background-color:blue;
   color: white;
-
+  transition: background 2s;
 }
 
 footer{
