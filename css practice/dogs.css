@@ -81,7 +81,7 @@ h1:hover{
 }
 table:hover{
   color: yellow;
-  transition: background 2s;
+  transition: background 5s;
 }
 p{
   font-family: Arial;

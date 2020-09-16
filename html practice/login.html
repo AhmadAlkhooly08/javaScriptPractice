@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login form</title>
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <style>
+      *{
+        font-family: sans-serif;
+      }
+    body {
+        padding:0px;
+        margin: 0px;
+        background-image: linear-gradient(rgba(18, 53, 128,0.8),rgba(173, 50, 50,0.8),rgba(43, 68, 107,0.8)); 
+        backdrop-filter: blur(999px);
+        backdrop-filter: saturate(80%);
+
+         /* filter: blur(1px); */
+        background-repeat:no-repeat;
+        background-size: cover;
+        /* color: white;  */
+        overflow: hidden;
+    }
+    html{
+        height: 700px;
+    }
+    form{
+        /* margin-left: 480px; */
+        background-color: rgb(255,255,255);
+        width: 425px;
+        height: 470px;
+        /* box-shadow: 0px 12px 2px white,
+                    0px 12px  3px white,
+                    0px 12px 3px white,
+                    0px 12px 3px white;  */
+                    -webkit-box-shadow: 0px 2px 4px 5px #ffffff; 
+                    -moz-box-shadow:    0px 2px 4px 5px #ffffff; 
+                    box-shadow:         0px 2px 4px 5px #ffffff;
+        border-radius: 1%;   
+    }
+    input{
+        width: 375px;
+        height: 34px;
+        box-shadow:inset 1px 1px 1px 1px rgba(253, 253, 253, 9%);
+        border-radius: 6%;
+    }
+    /* button{ */
+        /* width: 375px; */
+        /* height: 34px; */
+         /* background-color: #B56162; */
+        /* color: white;  */
+    /* } */
+    /* h1{ */
+        /* margin-left: 600px; */
+        /* margin-top: 40px;  */
+        /* margin-right: 100px;  */
+    /* } */
+    /* h5{ */
+        /* margin-left: 600px;   */
+    /* }  */
+    .mb-4{
+        margin-left: 140px;
+    }
+    @media (max-width: 375px){
+        html{
+            height: 820px;
+        }
+        form{
+            width: 312px;
+        }
+        input{
+            width: 275px;
+            height: 34px;
+        }
+        .button{
+            width: 275px;
+        }
+        .mb-4{
+        margin-left: 90px;
+        }
+
+
+    }
+  </style>
+</head>
+<body class="d-flex flex-column align-items-center justify-content-center justify-content-sm-start text-white ">
+    <h1 class="mt-5 display-4">
+        Login Form
+    </h1>
+    <h6>
+        <span style="color: #A79797;">Made with</span> Bootstrap
+    </h6>
+        <form class="mt-4 d-flex flex-column justify-content-center">
+            <img width="140px" class="mb-4 mt-1" src="https://nagriksevakendra.in/default/login/avatar.png">
+            <div class="form-group pl-4 pr-4">
+                <input type="email" class="form" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="User name" required>
+            </div>
+            <div class="form-group  pl-4 pr-1">
+                <input type="password" class="form" id="exampleInputPassword1" placeholder="Password" required pattern=".{5,10}" required title="password must be between 5 and 10 characters">
+            </div>
+            </div>
+            <a href="http://127.0.0.1:5500/html%20practice/consultancy.html#" type="submit" class="btn btn-danger ml-4 mr-4 text-white button">login</a>
+            <h6 class="d-flex justify-content-center pt-5 pb-1 disabled" style="color:rgb(122,126,130) ;">
+                Not registered?
+                <a href="http://127.0.0.1:5500/html%20practice/learn.html" style="color: INDIANRED;"> creat a new account</a>
+            </h6>
+        </form> 
+</body>
+</html>

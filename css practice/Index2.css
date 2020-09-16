@@ -1,0 +1,129 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    text-align: center;
+    background-color: #343A40;
+    color: #ffff;
+    height: 60px;
+    font-size: 22px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width:100%;
+    padding-left: 110px;
+}
+.item{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 29px;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.link{
+    color: #ffc107;
+}
+ .link:hover{
+    color: #AE842A;
+
+}
+
+.petroleum {
+    margin-top: 12px;
+}
+
+.logo {
+    padding-left: 5px;
+}
+
+.ahmad{
+    margin-left: 109px;
+    margin-right: 138px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #E9ECEF;
+    border-radius:.25rem;
+}
+.pink{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 90px;
+    top: 0;
+}
+.h1{
+    font-size: 48px;
+}
+.p{
+    font-size: 25px;
+}
+.container{
+    display: grid;
+    grid-template-rows: 260px;
+    grid-template-columns: 28% 28% 28%;
+    justify-content: center;
+}
+.black{
+    font-size: 40px;
+    margin-left: 110px;
+}
+.img-thumbnail2{
+    /* background-color: #fff; */
+    border: 1px solid #1f374e;
+    border-radius: .25rem;
+}
+.img-thumbnail3{
+    background-color: #fff;
+    border: 17px solid #1f374e;
+    border-radius: .25rem;
+}
+p{
+    border-left: 1px solid rgb(222,226,230);
+    padding-left: 15px;
+}
+
+@media(max-width: 375px) {
+    body{
+        font-size: 200px;
+    }
+    .container{
+        display: grid;
+        /* grid-template-rows: 260px; */
+        grid-template-columns:repeat(1,1fr);
+        justify-content: center;
+        margin-left: 100px;
+    }
+    .img-thumbnail{
+        width: 680px;
+    }
+    .img-thumbnail2{
+        width: 800px;
+        margin-bottom: 30px;
+        float: top;
+    }
+    .img-thumbnail3{
+        display: none;
+    }
+    .ahmad{
+        font-size: 1px;
+        margin-top:200px;
+    }
+    .nav{
+        font-size: 90px;
+        height: 100px;
+    }
+}
+  
+  
