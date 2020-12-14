@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.item{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    line-height: 1.6;
+
+}
+.header{
+    margin-top: 70px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+li{
+    font-size: 25px;
+    line-height: 2.0;
+}
+hr{
+    width: 570px;
+}

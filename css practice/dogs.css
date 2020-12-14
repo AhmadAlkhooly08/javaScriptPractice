@@ -14,7 +14,7 @@ table{
   /* color: BLUE; */
   border-color: darkmagenta;
   border-width:5px;
-  border-style:darkmagenta ;
+  border:darkmagenta;                                             
 }
 h3{
   /* color: royalblue; */
@@ -81,8 +81,8 @@ h1:hover{
 }
 table:hover{
   color: yellow;
-  transition: background 5s;
-}
+  transition: background 9s;
+}    
 p{
   font-family: Arial;
   padding: 10px;
@@ -133,7 +133,7 @@ button > a:hover{
 button:hover{
   background-color:blue;
   color: white;
-  transition: background 2s;
+  transition: background 6s;
 }
 
 footer{

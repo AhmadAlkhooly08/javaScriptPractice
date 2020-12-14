@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../bootstrap-Natural-Gas"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javaScriptPractice"
+	}
+}
