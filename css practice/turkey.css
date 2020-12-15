@@ -7,6 +7,15 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ 
+}
+.item-2{
+    /* margin-bottom: 100px;
+    margin-top: 20px;    */
+}
 .item{
     margin-left: 100px;
     margin-bottom: 100px;
@@ -16,6 +25,7 @@ body{
 }
 .header{
     margin-top: 70px;
+    margin-bottom: 30px;
     text-align: center;
 }
 p{
