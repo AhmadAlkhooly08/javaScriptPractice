@@ -10,11 +10,7 @@ body{
 .container2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
- 
-}
-.item-2{
-    /* margin-bottom: 100px;
-    margin-top: 20px;    */
+    margin-bottom: 130px;
 }
 .item{
     margin-left: 100px;
@@ -22,6 +18,27 @@ body{
     margin-top: 20px;
     line-height: 1.6;
 
+}
+table{
+    font-size: 30px;
+    margin-left: 190px;
+    width: 900px;
+    background-image: linear-gradient(to top left,   rgb(0, 97, 102), rgb(1, 46, 95));
+    color: white;
+
+}
+tr{
+    text-align: center;
+}
+thead{
+    background-image: linear-gradient(to top left, #91fad4, rgb(50, 141, 146));
+    color: white;
+}
+.red{
+    margin-left: 45px;
+}
+.center{
+   margin-left: 80px; 
 }
 .header{
     margin-top: 70px;
