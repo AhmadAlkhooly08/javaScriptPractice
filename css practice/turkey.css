@@ -12,6 +12,14 @@ body{
     grid-template-columns: repeat(3,1fr);
     margin-bottom: 130px;
 }
+.item-2{
+    border: rgb(194, 192, 192);
+}
+.p.{
+    max-width: 260px; 
+    background-color:white;
+    margin-top: ;
+}
 .item{
     margin-left: 100px;
     margin-bottom: 100px;
@@ -42,11 +50,22 @@ thead{
 }
 .header{
     margin-top: 70px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     text-align: center;
+}
+.form{
+    margin-left: 450px;
+    margin-top: 170px;
 }
 p{
     font-size: 20px;
+    max-width: 370px;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20px ;
+    font-size: large;
 }
 li{
     font-size: 25px;
