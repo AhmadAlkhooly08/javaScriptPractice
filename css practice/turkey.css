@@ -12,8 +12,8 @@ body{
     grid-template-columns: repeat(3,1fr);
     margin-bottom: 130px;
 }
-.item-2{
-    border: rgb(194, 192, 192);
+.card{
+    border-radius: 50px;
 }
 .p.{
     max-width: 260px; 
@@ -57,15 +57,25 @@ thead{
     margin-left: 450px;
     margin-top: 170px;
 }
+
 p{
     font-size: 20px;
     max-width: 370px;
+    margin: 0;
+}
+.form{
+    color: white;
+}
+.bac.{
+    background-color: white;
 }
 input{
     display: flex;
     flex-direction: column;
     margin-bottom:20px ;
     font-size: large;
+    background-color: #202020;
+    color: white;
 }
 li{
     font-size: 25px;
