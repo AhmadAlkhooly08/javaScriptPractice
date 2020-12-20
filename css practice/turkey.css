@@ -50,9 +50,6 @@ thead{
 .header{
     text-align: center;
 }
-.form{
-    margin-top: 170px;
-}
 
 .container2 div p{
     max-width: 299px;
@@ -67,7 +64,12 @@ p{
     max-width: 370px;
     margin: 0;
 }
-.form{
+.form-container{
+    width: 100%;
+}
+form{
+    width: 50%;
+    margin: auto;
     color: white;
 }
 .bac{
