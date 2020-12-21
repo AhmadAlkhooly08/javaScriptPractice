@@ -66,11 +66,22 @@ p{
 }
 .form-container{
     width: 100%;
+    background-image: url(https://blog.openclassrooms.com/en/wp-content/uploads/sites/4/2017/09/OC_mobile-2.jpg);
+    backdrop-filter: blur(99px);
+    backdrop-filter: saturate(80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    transform: scale(1.0);
+    margin-top: 110px;
 }
 form{
     width: 50%;
     margin: auto;
-    color: white;
+    color: rgb(44, 1, 1);
+    position:relative; top:120px;
+    margin-top: 0px;
 }
 .bac{
     background-color: white;
