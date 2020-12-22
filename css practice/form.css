@@ -1,4 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top left, blue, red);
+    background-repeat: no-repeat;
+    height: 760px;
+    background-size: cover;
+}
 .container{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    justify-content: center;
+
+}
+form{
+    margin-top: 110px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 60px 40px 60px;
+    
+}
+h1{
+    position: relative; top: 100px;
+    margin-left: 60px;
+    font-size: 50px;
+}
+input{
+    font-size: 20px;
+}
+
+button{
+    width: 215px;
+}
+.icon{
+    margin-bottom: 20px;
+   color: blue; 
+   margin-left: 70px;
 }

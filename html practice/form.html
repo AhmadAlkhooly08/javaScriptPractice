@@ -1,54 +1,25 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>form</title>
+        <title>Document</title>
         <link rel="stylesheet" href="../css practice/form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+
     </head>
     <body>
         <div class="container">
-            <h1>
-                sign in
-            </h1>
+            <h1>login form</h1>
             <form action="/html practice/turkey.html">
-                <label for="email">email:</label>
-                <input type="email id="email" name="email" value="email">
-                <label for="email">password:</label>
-                <input type="password id="password" name="password" value="password">
+                <i class="fa fa-user-circle icon" aria-hidden="true" style="font-size: 70px;"></i>
                 <p>
-                    <input type="checkbox" id="checkbox">
-                    <label for="checkbox">do you love my website</label>
-                    <select>
-                        <option>
-                            what's your name
-                        </option>
-                        <option>
-                            ahmad
-                        <option>
-                            mohammad
-                        </option>
-                        <option>
-                            ibrahim
-                        <option>
-
-                        <option>
-                            dog
-                        </option>
-                            
-                    </select>
+                    <input type="email" name="email" id="email" placeholder="email" required>
                 </p>
                 <p>
-                    <p>
-                        audio settings:
-                    </p>
-                    <label for="range">volume</label>
-                    <input type="range" id="range" value="75" min="0" max="11">
-
-                    <label for="range">sound</label>
-                    <input type="range" id="range" value="75" min="0" max="11">
+                    <input type="password" name="password" id="password" placeholder="password" minlength="5" maxlength="9" required>
                 </p>
-            </form> 
+                <button>sign in</button> 
+                <p>Not registered?<a href="http://127.0.0.1:5500/html%20practice/learn.html">creat new acount</a></p>   
+            </form>
         </div>
     </body>
 </html>
-
-
-

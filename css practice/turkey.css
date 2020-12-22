@@ -21,8 +21,8 @@ body{
     margin: auto;
     margin-bottom: 40px;
 }
-.container2 div:hover{
-    box-shadow: 0px 80px 106px 0 rgba(0,5,4,1.2);
+.card:hover{
+    box-shadow: 20px 20px 16px 0 rgba(0,5,4,1.2);
 }
 
 .item{
@@ -66,22 +66,26 @@ p{
 }
 .form-container{
     width: 100%;
-    background-image: url(https://blog.openclassrooms.com/en/wp-content/uploads/sites/4/2017/09/OC_mobile-2.jpg);
-    backdrop-filter: blur(99px);
-    backdrop-filter: saturate(80%);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to top left, rgb(5, 253, 5), rgb(5, 5, 110));
+    overflow: hidden;
     height: 700px;
-    background-position: center;
-    transform: scale(1.0);
     margin-top: 110px;
+    margin-bottom: 20px;
 }
 form{
     width: 50%;
     margin: auto;
-    color: rgb(44, 1, 1);
-    position:relative; top:120px;
-    margin-top: 0px;
+    color: white;
+    position:relative; top:70px;
+    background-image: linear-gradient(to top left, rgb(245, 97, 52),rgb(235, 145, 12));
+    border-radius: 15px;
+    border:2px solid white;
+    padding: 20px;
+    height: 525px;
+}
+form:hover{
+    box-shadow: 9px 9px 10px 10px rgba(0,5,4,1.2);
+
 }
 .bac{
     background-color: white;
