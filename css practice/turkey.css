@@ -48,6 +48,7 @@ thead{
     color: white;
 }
 .header{
+    margin-top: 40px;
     text-align: center;
 }
 
@@ -66,7 +67,7 @@ p{
 }
 .form-container{
     width: 100%;
-    background-image: linear-gradient(to top left, rgb(5, 253, 5), rgb(5, 5, 110));
+    background-image: linear-gradient(to top left, rgba(5, 253, 5, 0.692), rgba(5, 5, 110, 0.712));
     overflow: hidden;
     height: 700px;
     margin-top: 110px;
@@ -84,7 +85,7 @@ form{
     height: 525px;
 }
 form:hover{
-    box-shadow: 9px 9px 10px 10px rgba(0,5,4,1.2);
+    box-shadow: 9px 9px 10px 10px rgba(247, 139, 38, 0.3);
 
 }
 .bac{
