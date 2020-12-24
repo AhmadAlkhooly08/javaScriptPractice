@@ -7,12 +7,29 @@ h1{
 }
 p{
     max-width: 600px;
-    font-size: 30px;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    /* position: relative; top: 120px; */
+}
+.span{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+
 }
 .bacground{
     background-image: url(https://cdn.mos.cms.futurecdn.net/mEuBJTDhXuTfSKdLefzSKg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1400px;
-    height: 500px;
+    border-radius: 20px;
+    margin: 0px 50px 0px 50px ;
+    height: 600px;
+}
+button{
+    font-size: 24px;
+    padding: 5px;
+    margin: 20px;
+    color: white;
+    background-color: #CF592B;
 }
