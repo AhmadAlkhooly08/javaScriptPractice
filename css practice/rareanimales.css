@@ -2,19 +2,21 @@ body{
     background-color: aqua;
 }
 h1{
-    margin-bottom: 150px;
+    margin-bottom: 130px;
+    margin-top: 100px;
     text-align: center;
 }
 p{
     max-width: 600px;
     font-size: 40px;
-    padding: 20px;
+    padding: 20px 70px;
     color: white;
     font-family: 'Raleway', sans-serif;
     /* position: relative; top: 120px; */
 }
 .span{
     font-size: 20px;
+    padding: 40px 70px;
     font-family: 'Raleway', sans-serif;
 
 }
@@ -22,14 +24,25 @@ p{
     background-image: url(https://cdn.mos.cms.futurecdn.net/mEuBJTDhXuTfSKdLefzSKg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border: 4px solid #ffffff;
     border-radius: 20px;
-    margin: 0px 50px 0px 50px ;
-    height: 600px;
+    margin: 0px 50px 140px 50px ;
+    height: 700px;
 }
 button{
     font-size: 24px;
-    padding: 5px;
+    padding: 13px;
     margin: 20px;
-    color: white;
+    color: #ffffff;
+    margin-left: 70px;
     background-color: #CF592B;
+}
+.bacground-2{
+    background-image: url(https://i.pinimg.com/originals/c0/d6/25/c0d625a7ef5bc800380b76186f4f1e06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    margin: 0px 50px 0px 50px ;
+    border: 4px solid #ffffff;
+    border-radius: 20px;
 }
