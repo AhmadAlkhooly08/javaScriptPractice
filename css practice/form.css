@@ -36,3 +36,6 @@ button{
    color: blue; 
    margin-left: 70px;
 }
+a{
+    text-decoration: none;
+}
