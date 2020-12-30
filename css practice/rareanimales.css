@@ -135,13 +135,13 @@ hr {
    text-decoration: underline; 
 }
 .cv:hover{
-    background-color:aqua;
+    color:aqua;
 }
 .github:hover{
-    background-color: white;
+    color: white;
 }
 .facebook:hover{
-    background-color:  #3A97F5;
+    color:  #3A97F5;
 }
 
 a{
@@ -157,4 +157,3 @@ table{
     margin-bottom: 190px;
     background-image: linear-gradient(to top left, rgb(0, 255, 170), rgb(1, 203, 253));
 }
-
