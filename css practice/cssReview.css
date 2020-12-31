@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #9AD9EA;
 
 }
 .nav{
@@ -30,7 +31,7 @@ a > i{
     height: 600px;
 }
 .background{
-    background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2018/04/Best-Code-and-Text-Editors.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://www.elegantthemes.com/blog/wp-content/uploads/2018/04/Best-Code-and-Text-Editors.png);
     background-repeat: no-repeat;
 
     background-size: cover;
@@ -117,3 +118,46 @@ footer{
     font-size: 25px;
   
 }
+.container-2 div:nth-child(1){
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://media.gettyimages.com/photos/liberty-island-overlooking-manhattan-skyline-picture-id608615480?s=612x612);
+}
+.container-2 div:nth-child(2){
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.state.gov/wp-content/uploads/2019/04/Jordan-2106x1406.jpg);
+ 
+}
+.container-2 div:last-child{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://wallpaperaccess.com/full/449149.jpg);
+}
+.container-2 div h2{
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+.container-2 h1{
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.container-2 div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: auto;
+    width: 80%; 
+    position: relative; bottom: 70px;
+    border-radius:20px ;
+}
+div a{
+    color: white;
+    text-decoration: none;
+}
+div button:active{
+    background-color: blue;
+}
+h1+h2::selection{
+    background-color: red;
+    color: whitesmoke;
+}
+
