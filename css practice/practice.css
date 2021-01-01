@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: blue;
+}
+.bacground{
+    background-color: yellow;
+    padding: 40px;
+    margin: 20px;
+}

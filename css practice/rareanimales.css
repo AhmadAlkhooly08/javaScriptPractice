@@ -124,6 +124,7 @@ hr {
     text-align: left;
     display: inline;
     float: left;
+    font-family: 'Roboto', sans-serif;
 }
 .footer-item a i {
     color: rgb(119,119,119);

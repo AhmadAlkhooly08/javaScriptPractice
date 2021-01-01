@@ -57,29 +57,6 @@ a > i{
     height: 800px;
 
 }
-.end{
-    display: flex;
-    flex-direction: column;
-    color: rgb(236, 231, 231);
-    display: flex;
-    
-}
-.jumbotron{
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#87e0fd), color-stop(40%,rgb(5, 5, 128)), color-stop(100%,#05abe0));
-    height: 300px;
-
-    margin-bottom: 30px;
-}
-footer{
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(5, 5, 128);
-    color: white;
-    font-size: 20px;
-}
-
 .card-container img{
     border-radius: 50%;
     width: 160px;
@@ -148,6 +125,12 @@ footer{
     width: 80%; 
     position: relative; bottom: 70px;
     border-radius:20px ;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+.container-2 div:hover{
+    box-shadow: 5px 5px 7px 8px rgb(26, 182, 182);
+
 }
 div a{
     color: white;
@@ -156,6 +139,81 @@ div a{
 div button:active{
     background-color: blue;
 }
+
+.end{
+    display: flex;
+    flex-direction: column;
+    color: rgb(236, 231, 231);
+    display: flex;
+    
+}
+.jumbotron{
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#87e0fd), color-stop(40%,rgb(5, 5, 128)), color-stop(100%,#05abe0));
+    height: 300px;
+
+    margin-bottom: 80px;
+}
+footer{
+    /* height: 45px; */
+    background-color: #343A40;
+    color: white;
+    font-size: 20px;
+    padding: 2vw 9vw 4vw 9vw ;
+
+}
+.footer-item1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.footer-item1 div h4{
+    margin-bottom: 0;
+}
+
+.footer-item1 div p{
+    width: 300px;
+    color: rgb(119,119,119);
+    margin-top: 8;
+}
+
+.footer-item1 div a{
+    color: rgb(119,119,119);
+}
+.footer-item{
+    display: grid;
+    grid-template-columns: repeat(2,60vw);
+    margin-top: 40px;
+}
+.footer-item h1{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-left: 40px;
+}
+.icon{
+    display: grid;
+    grid-template-columns: repeat(3,70px);
+}
+.icon a>i{
+    color: rgb(119,119,119);
+
+}
+.footer-item1  a:hover{
+    text-decoration: underline;
+
+}
+.facebook:hover{
+    color: #3A97F5 ;
+}
+.cv:hover{
+    color:aqua ;
+}
+.github:hover{
+    color: white;
+}
+
+
 h1+h2::selection{
     background-color: red;
     color: whitesmoke;
