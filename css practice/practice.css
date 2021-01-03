@@ -7,4 +7,54 @@ body{
     background-color: yellow;
     padding: 40px;
     margin: 20px;
+    display: block;
+}
+.background-transition{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 30px;
+    transition: 3s 1s;
+}
+.background-transition:hover{
+    background-color: aqua;
+    border-radius:50% ;
+}
+.delay-transition div{
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    margin: 30px;
+    transition: 3s 1s;
+ 
+}
+.delay-transition{
+    margin-bottom: 200px;
+
+}
+.delay-transition:hover div{
+    background-color: aquamarine;
+    margin-left: 600px;
+}
+.timing-function div{
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    margin: 30px;
+    transition: 3s;
+}
+.timing-function:hover div{
+    margin-left: 400px;
+}
+.timing-function > div:nth-child(1){
+    transition-timing-function: ease-in;
+}
+.timing-function > div:nth-child(2){
+    transition-timing-function: ease-out;
+}
+.timing-function > div:nth-child(3){
+    transition-timing-function:cubic-bezier(0.7, 2, 4, 3);
+}
+.timing-function > div:nth-child(4){
+    transition-timing-function:cubic-bezier(0.9, 2, 1, 2);
 }

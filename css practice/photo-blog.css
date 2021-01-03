@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container div{
+  margin-bottom: 40px; 
+}
+img{
+    margin: 20px;
+    width: 30%;
+}
+h1{
+    margin: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+}
