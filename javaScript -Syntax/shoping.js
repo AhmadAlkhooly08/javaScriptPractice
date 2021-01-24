@@ -20,7 +20,13 @@ while(question !== "quit" && question !== "q"){
                 alert(`you have deleted ${products[i]}`);
                 products.splice(i,1);
             }
-            
+            else if(Number.isNaN(deleteItem)){
+                const deleted =products.splice(i,1);
+                alert(`ok, deleted ${deleted[0]}`)
+            }
+            else{
+                alert("unknown in the list");
+            }
         }
     }
     question = prompt("what do you want to buy from my website");
