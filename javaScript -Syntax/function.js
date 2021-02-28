@@ -10,8 +10,12 @@
 //     console.log(`Hi,${person}👨‍⚕`);
 // }
 // greet('AHMAD THE BOSS');
-function name(firstName,lasName){
-    console.log(`welcome ${firstName}${lasName}`)
+// function name(firstName, lasName){
+//     console.log(`WELCOME ${firstName}${lasName} YOU ARE THE BOOS👨‍✈️👨🏿‍🎤 `)
+// }
+// name("Ahmad"," alk");
+function repeat(name){
+    const ahmad = console.log(`hi there ${name.repeat(2)}`);
+    return ahmad;
 }
-firstName('Ahmad');
-lastName('ALK');
+repeat('ahmad alk ');
