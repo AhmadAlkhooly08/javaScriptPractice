@@ -1,12 +1,11 @@
 // console.log("welcome back to JS Ahmad!!!!!!");
-// let year = 2000;
-// let age = 2;
+let year = 2008;
 // age = age +10;
 // year = year +8;
-// let age = 123;
+let age = 13;
 // age = false;
 // age = 345;
-// let name = 'ahmad';
+let name = 'ahmad';
 // name[3]
 // name.length
 // name.trim()
@@ -16,21 +15,52 @@
 // name.length
 // console.log(name.replace('a','gf'))
 // console.log(alert(name))
-// console.log(prompt(name))
-let rate = prompt('put a rate');
-if(rate <= 1 && rate <= 2){
-    console.log('baaaad!!!!!')
-}
-else if(rate === 3 || rate === 4 ){
-    console.log('not bad')
-}
-else if(rate === 5){
-    console.log('gooood')
-}
+// let all =[name,year,age];
+// console.log(all.push('rate','mhf')) 
+// console.log(all.pop()) 
+// all.unshift("dbafebg")
+// all.shift()
+// let ad =['dwg','edf','reds'];
+// ad[1]='dweg';
+// ad.indexOf('edf')
+//ad.reverse()
+//ad.slice(1)
+//ad.includes('dwg')
+//ad.splice(1, 0, 'Feb');
+//ad.sort();
+// let a1 = ['a','b','c']
+// let a2 = ['d','e','f','g']
+// let a3 = a1.concat(a2);
 
-else{
-    console.log('gooooood!!!!!!')
+// let rate = prompt('put a rate');
+// if(rate <= 1 && rate <= 2){
+//     alert('baaaad!!!!!')
+// }
+// else if(rate === 3 || rate === 4 ){
+//     alert('not bad')
+// }
+// else if(rate === 5){
+//     alert('gooood')
+// }
+
+// 1000>100 && 10<20
+// 10<9 || 100 > 10
+// !10>9 
+let person = {
+    name:'AHMAD',
+    lastName:'ALKHOOLY',
+    age:13,
+    home : 'istanbul-turkey'
+
+};
+document.getElementById("demo").innerHTML = person.name  +  person.lastName + " is " + person.age + " years old. " + 'lives in ' + person.home ;
+person.name
+person['age']
+person.age = 13
+person.home = 'istanbul-turkey'
+for(let i=1; i<=10; i++){
+    console.log(i);
 }
-1000>100 && 10<20
-10<9 || 100 > 10
-!10>9 
+for(let i=0; i< person.length; i++){
+    console.log(i,person[i]);
+}
