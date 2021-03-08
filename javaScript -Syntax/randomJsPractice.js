@@ -54,13 +54,34 @@ let person = {
 
 };
 document.getElementById("demo").innerHTML = person.name  +  person.lastName + " is " + person.age + " years old. " + 'lives in ' + person.home ;
-person.name
-person['age']
-person.age = 13
-person.home = 'istanbul-turkey'
-for(let i=1; i<=10; i++){
+// person.name
+// person['age']
+// person.age = 13
+// person.home = 'istanbul-turkey'
+// for(let i=1; i<=10; i++){
+//     console.log(i);
+// }
+// for(let i=0; i< person.length; i++){
+//     console.log(i,person[i]);
+// }
+for(let i=0; i<=40; i+=2){
     console.log(i);
 }
-for(let i=0; i< person.length; i++){
-    console.log(i,person[i]);
+for(let i=0; i<=100; i+=10){
+    console.log(i);
+}
+for (let i=100; i>=0; i-=10){
+    console.log(i)
+}
+let secretNum= 123;
+let q = prompt('what is the secret number');
+while (q != secretNum){
+    q=prompt('wrooooong what is the secret number');
+}
+if(q == secretNum){
+    alert('you got it');
+}
+let as =['wolf','hayena','dear','bear','snaik','crocadail','cheta','elefent','lion','tiger']
+for(let a of as){
+    console.log(a)
 }
