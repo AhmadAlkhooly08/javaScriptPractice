@@ -67,12 +67,15 @@ document.getElementById("demo").innerHTML = person.name  +  person.lastName + " 
 for(let i=0; i<=40; i+=2){
     console.log(i);
 }
+
 for(let i=0; i<=100; i+=10){
     console.log(i);
 }
+
 for (let i=100; i>=0; i-=10){
     console.log(i)
 }
+
 let secretNum= 123;
 let q = prompt('what is the secret number');
 while (q != secretNum){
@@ -81,10 +84,19 @@ while (q != secretNum){
 if(q == secretNum){
     alert('you got it');
 }
+
 let as =['wolf','hayena','dear','bear','snaik','crocadail','cheta','elefent','lion','tiger']
 for(let a of as){
     console.log(a)
 }
+
 for(let per in  person){
     console.log(`${per}:${person[per]}`);
 }
+
+function ahmet(){
+    console.log('my name is ahmet');
+    console.log('i am in turkey');
+    console.log('i am 13 years old')
+}
+ahmet();
