@@ -85,3 +85,6 @@ let as =['wolf','hayena','dear','bear','snaik','crocadail','cheta','elefent','li
 for(let a of as){
     console.log(a)
 }
+for(let per in  person){
+    console.log(`${per}:${person[per]}`);
+}
