@@ -125,4 +125,39 @@ function reapeat(str,num){
     console.log(result);
 }
 reapeat('hi',23);
-
+let animal = "wolf";
+function animales(){
+    let animal = "tiger";
+    console.log(animal);
+}
+animales();
+console.log(animal);
+for(let i = 0; i <= 10; i++){
+    var age = 12;
+}
+console.log(age);
+function help(){
+    let heroes =['colt','batman','spiderman'];
+    function helpMe(){
+       for(let hero of heroes) {
+           console.log(`you are stuped ${hero}`);
+       }
+    }
+    helpMe();
+}
+help();
+const add = function (h){
+    let b ='lj,hv';
+    for(let i=0; i < b.length; i++){
+        console.log(b[i]);
+    }
+}
+add();
+function mhg(func){
+    func();
+}
+function math(random){
+    let roll = Math.floor(Math.random()*50)+1;
+    console.log(roll);
+}
+mhg(math);
