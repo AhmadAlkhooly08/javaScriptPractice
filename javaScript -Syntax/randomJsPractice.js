@@ -1,4 +1,4 @@
-// console.log("welcome back to JS Ahmad!!!!!!");
+console.log("welcome back to JS Ahmad!!!!!!");
 // let year = 2008;
 // age = age +10;
 // year = year +8;
@@ -161,3 +161,17 @@ function math(random){
     console.log(roll);
 }
 mhg(math);
+function f (kh){
+    kh();
+    kh();  
+}
+function g(r){
+    console.log('haaaaahaaaahaaaahaaaa');
+}
+f(g);
+function hn(min,max){
+    return function(num){
+        return num >= min && num <= max;
+    }
+}
+let total = hn(50,100);
