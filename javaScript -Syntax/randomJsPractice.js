@@ -175,3 +175,28 @@ function hn(min,max){
     }
 }
 let total = hn(50,100);
+const mathe ={
+    pI : 4.4023444,
+    Square : function (num){
+        return num * num;
+    },  
+    cube : function(num){
+         return num ** 3;
+     }  
+};
+const mathh ={
+    add (x,num){
+        return x + num;
+    },  
+    mutiplay (x,num){
+         return x * num;
+     }  
+};
+let aboutMe  ={
+    namee:'AHMAD ALKHOOLY',
+    age:13,
+    home:'in turkey',
+    ed(){
+        console.log(`my name is ${this.namee} i am ${this.age} years old I live ${this.home}`)
+    }
+}
