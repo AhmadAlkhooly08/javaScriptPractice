@@ -192,6 +192,7 @@ const mathh ={
          return x * num;
      }  
 };
+
 let aboutMe  ={
     namee:'AHMAD ALKHOOLY',
     age:13,
@@ -200,12 +201,14 @@ let aboutMe  ={
         console.log(`my name is ${this.namee} i am ${this.age} years old I live ${this.home}`)
     }
 }
+
 try{
     he.toUperca  
 }
 catch{
     console.log("helloooo you are stupid");
 }
+
 let num =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,];
 function print(item){
     console.log(item)
@@ -216,4 +219,37 @@ num.forEach(
         console.log(print);
     }
     
+)
+
+let text=['red','wolf','cat','blue','sad','yellow'];
+let texts= text.map(
+    function (t){
+        return t.toUpperCase();
+    }
+)
+let numm=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30];
+let mume= numm.map(
+    function (nume){
+        if (nume % 2 == 1){
+          return 0;  
+        }
+        else{
+            return nume;
+        }
+    }
+)
+let marke={
+    name:'AHMAD',
+    score:100,
+
+    name:'COLT',
+    score:1,
+
+    name:'IBRAHIM',
+    score:50
+}
+let s = marke.map(
+    function(re){
+        console.log(`${marke.name} = ${marke.score} /100`)
+    }
 )
