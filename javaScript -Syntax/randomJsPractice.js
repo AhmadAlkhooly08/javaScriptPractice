@@ -200,3 +200,20 @@ let aboutMe  ={
         console.log(`my name is ${this.namee} i am ${this.age} years old I live ${this.home}`)
     }
 }
+try{
+    he.toUperca  
+}
+catch{
+    console.log("helloooo you are stupid");
+}
+let num =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,];
+function print(item){
+    console.log(item)
+}
+num.forEach(print)
+num.forEach(
+    function (print){
+        console.log(print);
+    }
+    
+)
