@@ -238,18 +238,31 @@ let mume= numm.map(
         }
     }
 )
-let marke={
-    name:'AHMAD',
-    score:100,
 
-    name:'COLT',
-    score:1,
+let bla = (x,y) =>{
+    return x * y;
+};
 
-    name:'IBRAHIM',
-    score:50
-}
-let s = marke.map(
-    function(re){
-        console.log(`${marke.name} = ${marke.score} /100`)
+let blaa = (x,y) =>(
+    x * y
+)
+let b = (t) => t ** 3;
+const marke=[
+    {
+        name:'Ahmad',
+        score:100
+    },
+    {
+        name:'colt',
+        score:1
+    },
+    {
+        name:'omar',
+        score:90
+    }
+];
+let m = marke.map(
+    f =>{
+        return `${f.name} - ${f.score}/100`;
     }
 )
