@@ -261,8 +261,71 @@ const marke=[
         score:90
     }
 ];
+
 let m = marke.map(
     f =>{
         return `${f.name} - ${f.score}/100`;
     }
 )
+console.log('Hey there hoo are you') 
+
+setTimeout(
+    () =>{
+        console.log('ok!!! Hey there AHMAD ALKHOOLY how are you');
+    },
+3000)
+
+// setInterval(   
+//     () =>{
+//         console.log(Math.floor(Math.random() *6));
+//     },2000)
+
+let number =[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,];
+
+let nume = number.filter(n =>{
+    return n %2===1;
+})
+
+let numbr = num.filter(n =>{
+    return n %2===0;
+})
+
+const markee=[
+    {
+        name:'Ahmad',
+        score:100
+    },
+    {
+        name:'colt',
+        score:70
+    },
+    {
+        name:'omar',
+        score:95
+    },
+    {
+        name:'adam',
+        score:80
+    },
+    {
+        name:'Ahmad',
+        score:100
+    },
+    {
+        name:'ibrahim',
+        score:60
+    },
+    {
+        name:'gef',
+        score:20
+    },
+
+];
+
+let mark = markee.filter(n =>{
+    return n.score >= 75;
+})
+let badMark = markee.filter(
+    n =>(
+        n.score < 75
+    ))
