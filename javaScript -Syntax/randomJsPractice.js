@@ -328,4 +328,51 @@ let mark = markee.filter(n =>{
 let badMark = markee.filter(
     n =>(
         n.score < 75
-    ))
+))
+
+let exzam = [100,79,89,99,98,96,97];
+let pass = exzam.every(some => some >=  78)
+const mar=[
+    {
+        name:'Ahmad',
+        score:100
+    },
+    {
+        name:'colt',
+        score:70
+    },
+    {
+        name:'omar',
+        score:95
+    },
+    {
+        name:'adam',
+        score:80
+    },
+    {
+        name:'Ahmad',
+        score:100
+    },
+    {
+        name:'ibrahim',
+        score:60
+    },
+    {
+        name:'gef',
+        score:20
+    },
+
+];
+let w = mar.some(g => g.score = 20)
+
+let total = [1,3,9,11,22,5,8,10];
+ total.reduce((e,r) =>{
+        return e + r;
+});
+total.reduce((min,price) =>{
+       if(price < min){
+            return price;
+       }
+       return min;
+   } 
+)
