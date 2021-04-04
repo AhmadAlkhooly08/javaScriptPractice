@@ -365,14 +365,43 @@ const mar=[
 ];
 let w = mar.some(g => g.score = 20)
 
-let total = [1,3,9,11,22,5,8,10];
- total.reduce((e,r) =>{
+let totall = [1,3,9,11,22,5,8,10];
+ totall.reduce((e,r) =>{
         return e + r;
 });
-total.reduce((min,price) =>{
+totall.reduce((min,price) =>{
        if(price < min){
             return price;
        }
        return min;
    } 
 )
+
+let k ={
+    firstName:'Ahmad',    
+    lastName:"alkhooly",
+    m:() =>{
+        return `${this.firstName} ${this.lastName}`;
+    }
+}
+let a ={
+    firstName:'Ahmad',    
+    lastName:"alkhooly",
+    h: function (){
+        return `${this.firstName} ${this.lastName}`;
+    }
+}
+
+function hgh(num =15){
+    return Math.floor(Math.random() * num) +1;
+}
+
+function name(l,f ='hey there'){
+    return `${f} ${l}`; 
+ }
+ name('ahmad')
+ Math.max(1,4,100,60,700);
+ Math.min(1,4,100,60,700);
+Math.max(...exzam)
+console.log(exzam);
+console.log(...exzam);
