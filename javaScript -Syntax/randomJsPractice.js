@@ -405,4 +405,7 @@ function name(l,f ='hey there'){
 Math.max(...exzam)
 console.log(exzam);
 console.log(...exzam);
- 
+
+let dogs=['petbul','huskey','jerman cheperd'];
+let perets=['sanigal','african grey'];
+let all =[...dogs,...perets]
