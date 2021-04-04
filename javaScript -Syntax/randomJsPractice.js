@@ -405,3 +405,4 @@ function name(l,f ='hey there'){
 Math.max(...exzam)
 console.log(exzam);
 console.log(...exzam);
+ 
