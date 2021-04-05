@@ -409,3 +409,38 @@ console.log(...exzam);
 let dogs=['petbul','huskey','jerman cheperd'];
 let perets=['sanigal','african grey'];
 let all =[...dogs,...perets]
+
+let animals ={
+     one:{
+        number:1, 
+        name:'Nile Crocodile',
+        bite:5000
+    },  
+    tow:{
+        number:2, 
+        name:'Saltwater Crocodile',
+        bite:3690
+    },    
+    three:{
+        number:3, 
+        name:'American Alligator',
+        bite:2125
+    },    
+    foor:{
+        number:4, 
+        name:' Hippopotamus',
+        bite:1825
+    },    
+
+}
+let al={...animals,...markee};
+console.log({...[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]})
+
+function r(...num){
+    return num;
+}
+function loop(...num){
+    let total = 0;
+    for(let n of num) total += n;
+    return total;
+}
