@@ -439,8 +439,40 @@ console.log({...[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]})
 function r(...num){
     return num;
 }
-function loop(...num){
-    let total = 0;
-    for(let n of num) total += n;
-    return total;
+function sum(...num){
+    for(let n of num){
+        console.log(n += num);
+    } 
 }
+
+let winners=['AHMAD','OMER','ALI','jj','h','k','f'];
+const [ps5,DJI,bike,...every] = winners;
+
+let winnerss=['AHMAD','OMER','ALI',['jj','h','k','f']];
+const [car,dog,cat,...evry] = winnerss;
+
+let winner=['AHMAD','OMER'];
+const [wolf,perret,bik] = winner;
+
+let user ={
+    namee:'Ahmad',
+    lastName:'alkhooly',
+    agee:13,
+    country:'eygept',
+    home:'turkey'
+}
+const {namee,lastName,agee,home}=user;
+
+let person ={
+    important:{
+        nam:'Ahmad',
+        lastname:'alkhooly',
+        ag:13,
+        hme:'turkey',
+    },    
+    country:'eygept'
+}
+const {important,email='ahmadalkhooly8@gmail.com'}=person;
+const {ag:ageee}=person;
+console.log(important)
+console.log(person)
