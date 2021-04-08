@@ -476,3 +476,49 @@ const {important,email='ahmadalkhooly8@gmail.com'}=person;
 const {ag:ageee}=person;
 console.log(important)
 console.log(person)
+
+function i(person){
+    console.log(`${person.important} `)
+}
+
+const ma=[
+    {
+        name:'Ahmad',
+        na:'math',
+        score:100
+    },
+    {
+        name:'colt',
+        na:'science',
+        score:70
+    },
+    {
+        name:'omar',
+        na:'ingilish',
+        score:95
+    },
+    {
+        name:'adam',
+        na:'arabic',
+        score:80
+    },
+    {
+        name:'Ahmad',
+        na:'math',
+        score:100
+    },
+    {
+        name:'ibrahim',
+        na:'math',
+        score:60
+    },
+    {
+        name:'gef',
+        na:'math',
+        score:20
+    },
+
+];
+let d = ma.map(({name,na,score})=>{
+    console.log(`${name}'s mark in the ${na} is ${score}`)
+})
