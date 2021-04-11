@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color:gray; 
+}
+.active{
+    float: left;
+    color: black;
+}
+a{
+    float: right;
+    margin:30px ;
+    text-decoration: none;
+}
