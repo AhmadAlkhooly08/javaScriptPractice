@@ -4,13 +4,30 @@ body{
 }
 .nav{
     background-color:gray; 
+    height: 20px;
+    padding:20px ;
+
 }
 .active{
-    float: left;
     color: black;
 }
 a{
-    float: right;
-    margin:30px ;
     text-decoration: none;
+    font-size: 22px;
+}
+.anker{
+    float: right;
+    padding-right: 40px;
+    color: rgba(6, 247, 6, 0.767);
+}
+.background{
+    float: right;
+    position: relative;top: 150px;right: 180px;
+}
+.background h1,h2{
+    /* color: white; */
+    max-width: 400px;
+}
+.container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ok0A0dWxwzDccKHQGBK_Kve49jmqHKk5pg&usqp=CAU);
 }
