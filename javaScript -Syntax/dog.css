@@ -3,23 +3,24 @@ body{
     padding: 0;
 }
 .nav{
-    background-color:gray; 
+    background-color:rgba(128, 128, 128, 0.349); 
     height: 28px;
     padding:20px ;
-
+    align-items: center;
 }
 .active{
     color: black;
-    padding-left: 100px;
+    /* padding-left: 100px; */
+    position: relative; right: 32%;
 }
 a{
     text-decoration: none;
     font-size: 28px;
+    float: right;
 }
 .anker{
-    float: right;
-    padding-right: 40px;
-    color: rgba(6, 247, 6, 0.767);
+    padding-right: 100px;
+    color: rgba(7, 97, 7, 0.959);
 }
 .element{
     float: right;
@@ -56,7 +57,7 @@ table{
     text-align: center;
     background-image: linear-gradient(to top left, rgb(0, 97, 102),rgb(1, 46, 95));
     color: #ffffff;
-
+    margin-bottom: 200px;
 }
 td{
     font-size: 23px;
@@ -65,4 +66,28 @@ td{
 .h1{
     text-align: center;
     color: navy;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-image: linear-gradient(to top left, #91fad4,rgb(50, 141, 146));
+    height: 800px;
+}
+.card{
+    max-width: 300px;
+    text-align: center;
+    position: relative;top: 200px;
+    background-color: white;
+    height: 400px;
+    padding: 30px;
+    border-radius:30px ;
+}
+.inner-2 img{
+    width:270px;
+    border-radius: 100px;
+
+}
+.inner-3 img{
+    width:170px;
+    border-radius: 30px;
 }
