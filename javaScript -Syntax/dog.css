@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 .nav{
     background-color:rgba(128, 128, 128, 0.349); 
@@ -11,7 +12,7 @@ body{
 .active{
     color: black;
     /* padding-left: 100px; */
-    position: relative; right: 32%;
+    position: relative; right: 33%;
 }
 a{
     text-decoration: none;
@@ -30,7 +31,7 @@ a{
 .element h1,h2{
     color: white;
     max-width: 400px;
-    font-size: 50px;
+    font-size: 47px;
 }
 .element button{
     font-size: 25px;
@@ -51,13 +52,14 @@ a{
 }
 table{
     margin: auto;
-    width: 40%;
-    height: 200px;
+    width: 47%;
+    height: 270px;
     font-size: 20px;
     text-align: center;
     background-image: linear-gradient(to top left, rgb(0, 97, 102),rgb(1, 46, 95));
     color: #ffffff;
     margin-bottom: 200px;
+    margin-top: 70px;
 }
 td{
     font-size: 23px;
@@ -66,6 +68,7 @@ td{
 .h1{
     text-align: center;
     color: navy;
+    margin-top: 100px;
 }
 .container2{
     display: grid;
@@ -90,4 +93,32 @@ td{
 .inner-3 img{
     width:170px;
     border-radius: 30px;
+}
+.card .but{
+    position: absolute;
+    bottom: 0;
+    padding-left: 90px;
+    padding-bottom: 30px;
+}
+.but button{
+    padding: 8px;
+    border-radius: 10px;
+    width: 120px;
+    background-color:  #f86e6e;
+    color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 100px;
+    background-color: #414141;
+    color: white;
+    height: 200px;
+    padding-top: 70px;
+}
+.p{
+    margin-left: 80px;
+}
+.icon{
+    margin-left: 380px;
 }
