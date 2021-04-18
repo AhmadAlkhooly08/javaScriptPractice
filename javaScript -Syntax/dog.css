@@ -5,20 +5,34 @@ body{
 }
 .nav{
     background-color:#414141; 
-    height: 60px;
+    height: 100%;
+    padding: 10px;
 }
 .nav a{
     color: white;
     text-decoration: none;
 
 }
-.items{
+.nav-items{
     font-size: 28px;
     float: right;
+    margin: auto;
+    padding-right: 45px;
 }
-.logo{
+.nav-logo{
     font-size: 28px;
- 
+    display: inline;
+    margin: auto;
+}
+.nav-logo i{
+    position: relative; 
+    left: 65px; 
+    font-size: 33px; 
+    color: white;
+}
+.nav-logo a{
+    position: relative; 
+    left: 70px;
 }
 .anker{
     padding-right: 40px;
