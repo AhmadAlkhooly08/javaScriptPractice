@@ -27,7 +27,17 @@ for(let all of query){
     console.log(all.href)
     console.log(all)
 }
-let text = document.querySelector('#p h3').innerText='about this website'
-console.log(document.querySelector('#p p').textContent)
-console.log(document.querySelector('#p p').innerHTML)
-console.log(document.querySelector('#p h3').innerHTML='<h4>about this website</h4>')
+let text = document.querySelector('#peragraph h3').innerText='about this website'
+console.log(document.querySelector('#peragraph p').textContent)
+console.log(document.querySelector('#peragraph p').innerHTML)
+console.log(document.querySelector('#peragraph h3').innerHTML='<h4>about this website</h4>')
+//console.log(document.querySelector('h1').innerHTML+='<h4>about this website</h4>')
+console.log(document.querySelector('#peragraph').id='#peragraph')
+console.log(document.querySelector('a').href)
+console.log(document.querySelector('img').src)
+let attrebute=document.querySelector('img');
+console.log(attrebute.getAttribute('src'))
+//console.log(attrebute.setAttribute('src','https://www.udemy.com/staticx/udemy/images/v6/logo-coral-light.svg'))
+let inputt = document.querySelector('input');
+inputt.type='password'
+inputt.type='color'
