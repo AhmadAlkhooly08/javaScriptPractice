@@ -27,12 +27,12 @@ for(let all of query){
     console.log(all.href)
     console.log(all)
 }
-let text = document.querySelector('#peragraph h3').innerText='about this website'
-console.log(document.querySelector('#peragraph p').textContent)
-console.log(document.querySelector('#peragraph p').innerHTML)
-console.log(document.querySelector('#peragraph h3').innerHTML='<h4>about this website</h4>')
+let text = document.querySelector('#paragraph h3').innerText='about this website'
+console.log(document.querySelector('#paragraph p').textContent)
+console.log(document.querySelector('#paragraph p').innerHTML)
+console.log(document.querySelector('#paragraph h3').innerHTML='<h4>about this website</h4>')
 // console.log(document.querySelector('h1').innerHTML+='<h4>about this website</h4>')
-console.log(document.querySelector('#peragraph').id='#peragraph')
+console.log(document.querySelector('#paragraph').id='#paragraph')
 console.log(document.querySelector('a').href)
 console.log(document.querySelector('img').src)
 let attrebute=document.querySelector('img');
@@ -50,3 +50,44 @@ console.log(window.getComputedStyle(h1).color)
 console.log(window.getComputedStyle(h1).padding)
 console.log(window.getComputedStyle(h1).fontFamily)
 console.log(window.getComputedStyle(h1).fontSize)
+let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+let a = document.querySelectorAll('span');
+a.forEach((spa, h) => {
+    spa.style.color = colors[h];
+ });
+
+ let b = document.querySelector('h1');
+ b.classList.add('rainbow')
+ b.classList.add('rain')
+ b.classList.remove('rain')
+ console.log(b.classList.contains('rainbow'))
+ console.log(b.classList.contains('rain'))
+//  b.classList.toggle('rainbo')
+let m = document.querySelector('table');
+console.log(m.parentElement)
+console.log(m.parentElement.parentElement)
+console.log(m.parentElement.parentElement.parentElement)
+console.log(m.children[0])
+console.log(m.nextElementSibling)
+console.log(m.previousElementSibling)
+
+let add = document.createElement('img')
+console.log(add.src="https://www.w3schools.com/images/w3lynx_200.png");
+console.log(document.querySelector('.container').appendChild(add))
+console.log(add.classList.add('img'))
+let h2 = document.createElement('h2')
+console.log(h2.innerText='I am a game');
+console.log(document.querySelector('.container').appendChild(h2))
+h2.style.color='black'
+let p=document.querySelector('p');
+p.append('I love dogs')
+p.prepend('The German Shepherd Dog')
+let new2 = document.createElement('h2');
+new2.innerText='klike mi to play'
+console.log(h2.insertAdjacentElement('afterend',new2))
+new2.style.color='black'
+let another = document.createElement('h2');
+another.innerText='i am sow good'
+console.log(new2.after(another))
+another.style.color='black'
+

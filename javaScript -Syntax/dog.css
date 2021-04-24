@@ -144,17 +144,20 @@ td{
     height: 280px;
     padding-top: 100px;
 }
-#peragraph{
+.rainbow{
+    border:3px solid blue;
+    text-align: center;
+}
+#paragraph{
     margin-left: 80px;
 }
 .icon{
     margin-left: 380px;
 }
-#peragraph p{
+#paragraph p{
     font-size: 20px;
-    align-items: ;
 }
-#peragraph .ikon{
+#paragraph .ikon{
     font-size: 36px;
     padding-right: 35px;
 }
