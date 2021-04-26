@@ -91,3 +91,20 @@ another.innerText='i am sow good'
 console.log(new2.after(another))
 another.style.color='black'
 
+let createButton = () => {
+    for(let i = 0; i < 100; i++){
+        var btn = document.createElement("BUTTON") ;
+        btn.innerText="stupid!";
+        var element = document.querySelector(".container"); 
+        element.appendChild(btn);
+    }
+}
+
+createButton();
+let firstBtn=document.querySelector('button')
+console.log(firstBtn)
+let parent = firstBtn.parentElement;
+parent.removeChild(firstBtn)
+let j = document.querySelector('input');
+console.log(j)
+j.remove()
