@@ -108,3 +108,19 @@ parent.removeChild(firstBtn)
 let j = document.querySelector('input');
 console.log(j)
 j.remove()
+for(let i=1; i<=70; i++){
+    let newImg = document.createElement('img');
+    let url='https://raw.githubusercontent.com/pokeAPI/sprites/master/sprites/pokemon/'
+    newImg.src=`${url}${i}.png`
+    document.querySelector('.container').appendChild(newImg)
+    let pokemon = document.createElement('div');
+    let span = document.createElement('span');
+    span.innerText=`${i}`
+    pokemon.appendChild(newImg)
+    pokemon.appendChild(span)
+    document.querySelector('.container').appendChild(pokemon)
+    pokemon.style.display='inline-block';
+    newImg.style.display='block';
+    pokemon.style.textAlign='center';
+
+}
