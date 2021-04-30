@@ -122,5 +122,13 @@ for(let i=1; i<=70; i++){
     pokemon.style.display='inline-block';
     newImg.style.display='block';
     pokemon.style.textAlign='center';
+}
 
+let click = document.querySelector('#btn');
+click.onclick = function(){
+    alert('you clicked me you wend 100 dolores')
+    alert('do not click me again you are stupid now give me 100 dolores')
+}
+click.onmouseenter = function(){
+    console.log('hgjk')
 }
