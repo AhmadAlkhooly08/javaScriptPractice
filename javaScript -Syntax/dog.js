@@ -126,9 +126,19 @@ for(let i=1; i<=70; i++){
 
 let click = document.querySelector('#btn');
 click.onclick = function(){
-    alert('you clicked me you wend 100 dolores')
-    alert('do not click me again you are stupid now give me 100 dolores')
+    alert('do not click me again you are stupid now give me 100 dolores');
 }
-click.onmouseenter = function(){
+click.onclick = function(){
+    alert('you clicked me you wend 100 dolores');
+}
+let bt2 = document.querySelector('#btn2');
+bt2.onmouseenter = function(){
     console.log('hgjk')
 }
+let bt3 = document.querySelector('#btn3');
+bt3.addEventListener('dblclick',() => {
+    alert('😀😃😄😁🤣😂😅😎😡😨😱👊');
+})
+bt3.addEventListener('mouseup',() => {
+    alert('😀😃😄😁🤣😂😅😎😡😨😱👊');
+},{once:true})
