@@ -142,3 +142,19 @@ bt3.addEventListener('dblclick',() => {
 bt3.addEventListener('mouseup',() => {
     alert('😀😃😄😁🤣😂😅😎😡😨😱👊');
 },{once:true})
+
+let btn = document.querySelector('#hello');
+
+function f ()  {
+    console.log("hello");
+    btn.removeEventListener("click", f);
+}
+btn.addEventListener("click", f);
+
+let btn2 = document.querySelector('#goodbye');
+
+function d () {
+    console.log("goodbye");
+    btn2.removeEventListener("click", d);
+};
+btn2.addEventListener("click", d);
