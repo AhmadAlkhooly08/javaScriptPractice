@@ -11,12 +11,14 @@ btn.addEventListener('click',()=>{
 })
 let bt = document.querySelectorAll('.button');
 for(let btn of bt){
-        btn.addEventListener('click', function (){
-            // console.log('hgc')
-            let r =Math.floor(Math.random() * 255);
-            let g =Math.floor(Math.random() * 255);
-            let b =Math.floor(Math.random() * 255);
-            let rgh =`rgb(${r},${g},${b})`;        
-            btn.style.backgroundColor= rgh;
-        }) 
+        btn.addEventListener('click', color) 
+}
+let h2 = document.querySelectorAll('#h2');
+for(let h of h2){
+        h.addEventListener('click', color) 
+}
+function color(){
+    this.style.backgroundColor= rg;
+    console.log(this)
+
 }

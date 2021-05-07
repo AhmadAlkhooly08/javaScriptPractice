@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding: 20px;
+    background-color: #343A40;
+}
+.nav a{
+ text-decoration: none;
+ color: white;
+ padding: 15px;
+ font-size: 23px;
+}
+.nav a:hover{
+    color: orange;
+    transition: 1s;
+}
+.nav i{
+    font-size: 25px;
+    color: orange;
+}    
+.nav-left{
+    display: inline;
+    padding-left: 40px;
+}
+.nav-right{
+    float: right;
+    padding-right: 120px;
+}
