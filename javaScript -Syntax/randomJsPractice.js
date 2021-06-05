@@ -563,20 +563,23 @@ switch(day){
     default:
         console.log('there is no more days')
 }
-// let promp = prompt('how much countries are in the world');
-// switch(promp){
-//     case promp=100:
-//         console.log('low');
-//         break;
-//     case promp=150:
-//         console.log('still low');
-//         break;
-//     case promp=190:
-//         console.log('sow close');
-//         break;
-//     case promp=195:
-//         console.log('bravoooooo🤠👏');
-// }
+let promp = Math.floor(Math.random() * 8);
+switch(promp){
+    case 1:
+        prompt('how much countries are in the world');
+        break;
+    case 2:
+        prompt('how old are you');
+        break;
+    case 3:
+        prompt('where do you live');
+        break;
+    case 4:
+        prompt('how much people live in your country');
+    default:
+        alert('there is no more questions')
+
+}
 
 let array = ['ghf','AHMAD','AMMAR','IBRAHIM'];
 console.log(array.length)
@@ -587,3 +590,16 @@ console.log(array.unshift('colt'))
 let a1 =['wolf','line','dog','tiger'] 
 let a2 = ['cat','rabbet','bird']
 let concat = a1.concat(a2);
+console.log(concat.includes('sheep'))
+console.log(concat.includes('tiger'))
+console.log(concat.indexOf('tiger'))
+console.log(concat.reverse())
+for(let i=0; i<=concat.length; i++){
+    console.log(i,concat[i]);
+}
+for(let i=0; i<=10; i++){
+    console.log(i);
+}
+for(let i=0; i<=0; i++){
+    // console.log(i);
+}
