@@ -522,3 +522,68 @@ const ma=[
 let d = ma.map(({name,na,score})=>{
     console.log(`${name}'s mark in the ${na} is ${score}`)
 })
+
+let v = Math.floor(Math.random()* 6)  
+if(v===5 || v===6){
+    console.log('bravooooooooo');
+
+}
+if(v % 2 !==0){
+    console.log('ood number')
+}
+else if(v === 4 && v === 3){
+    console.log('you are smart'); 
+}
+else{
+    console.log('you are stupid');
+}
+let day = Math.floor(Math.random() * 8);
+switch(day){
+    case 1:
+        console.log('MONDAY')
+        break;
+    case 2:
+        console.log('tuesday')
+        break;
+    case 3:
+        console.log('wednesday')
+        break;
+    case 4:
+        console.log('thursday')
+        break;
+    case 5:
+        console.log('friday')
+        break;
+    case 6:
+        console.log('saturday')
+        break;
+    case 7:
+        console.log('sunday')
+    
+    default:
+        console.log('there is no more days')
+}
+// let promp = prompt('how much countries are in the world');
+// switch(promp){
+//     case promp=100:
+//         console.log('low');
+//         break;
+//     case promp=150:
+//         console.log('still low');
+//         break;
+//     case promp=190:
+//         console.log('sow close');
+//         break;
+//     case promp=195:
+//         console.log('bravoooooo🤠👏');
+// }
+
+let array = ['ghf','AHMAD','AMMAR','IBRAHIM'];
+console.log(array.length)
+console.log(array.push('mohammad','basel','colt'))
+console.log(array.pop())
+console.log(array.shift())
+console.log(array.unshift('colt'))
+let a1 =['wolf','line','dog','tiger'] 
+let a2 = ['cat','rabbet','bird']
+let concat = a1.concat(a2);
